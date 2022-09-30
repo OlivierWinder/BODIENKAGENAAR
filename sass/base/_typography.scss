@@ -1,0 +1,28 @@
+@use '../utils' as u;
+
+body{
+    font-family: u.$primary-font;
+    color: u.$pirmary-black;
+}
+
+h1{
+    font-size: u.$h1;
+}
+h2{
+    font-size: u.$h2;
+}
+h3{
+    font-size: u.$h3;
+}
+h4{
+    font-size: u.$h4;
+}
+h5{
+    font-size: u.$h5;
+}
+h6{
+    font-size: u.$h6;
+}
+.h-small{
+    font-size: u.$h7;
+}

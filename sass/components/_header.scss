@@ -1,0 +1,22 @@
+@use '../utils' as u;
+
+header{
+    height: 100vh;
+    width: 100vw;
+    padding: 2rem;
+    background-color: rgba(white, $alpha: 0);
+
+    .halo{
+        height: 90vh;
+        aspect-ratio: 1/1;
+        border-radius: 50%;
+        background: radial-gradient(rgb(85, 226, 88), rgba(0,0,0,0), rgba(0, 0, 0, 0));
+    }
+
+    .logo{
+        position: absolute;
+        width: 90vw;
+        bottom: 2rem;
+    }
+
+}
